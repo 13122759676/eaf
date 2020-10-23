@@ -17,7 +17,7 @@ public class CheckOrdersController {
     private CheckOrderService checkOrderService;
 
     public CheckOrdersController(){
-
+this.checkOrderService=new CheckOrderService();
     }
 
     @GetMapping("/CheckOrders")
